@@ -12,7 +12,7 @@ setup(
     license = 'MIT',
     url = 'https://github.com/wikilinks/sift',
     scripts = [
-        'scripts/sift-notebook',
+        'sift/',
         'scripts/download-wikipedia'
     ],
     classifiers=[
