@@ -12,7 +12,7 @@ class EntitySkipGramEmbeddings(ModelBuilder, Model):
     """ Learn distributed representations for words and entities in a corpus via skip-gram embedding """
     def __init__(
         self,
-        dimensions=100,
+        dimensions=200,
         min_word_count=500,
         min_entity_count=10,
         entity_prefix='en.wikipedia.org/wiki/',
