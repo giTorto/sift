@@ -16,9 +16,9 @@ class EntitySkipGramEmbeddings(ModelBuilder, Model):
         min_word_count=500,
         min_entity_count=10,
         entity_prefix='en.wikipedia.org/wiki/',
-        exclude_words=False,
+        exclude_words=True,
         exclude_entities=False,
-        workers=4,
+        workers=35,
         coalesce=None,
         *args, **kwargs):
 
